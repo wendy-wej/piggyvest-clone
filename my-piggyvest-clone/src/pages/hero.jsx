@@ -17,52 +17,52 @@ export const HeroPage = () =>{
             <header className="first-pane">
                 <div className="first-pane-text">
                     <h1>The Better Way to Save & Invest.</h1>
-                    <p>PiggyVest helps over 4 million customers achieve
+                    <p className='first-pane-text-subtext'>PiggyVest helps over 4 million customers achieve
                          their financial goals by helping them save and invest with ease.</p>
                 </div>
 
                 <div className="group-images">
                     <div className="main-cards">
-                        <img src={heroGirl} className="hero-girl"placeholder='' />
+                        <img src={heroGirl} className="hero-girl" alt='' />
                         <div>
-                            <img src={rect}  className="rect" placeholder='' />
-                            <img src={card1} className="card one" placeholder='My Rent Card' />
-                            <img src={card2} className="card two" placeholder='Investify Card' />
+                            <img src={rect}  className="rect" alt='' />
+                            <img src={card1} className="card one" alt='My Rent Card' />
+                            <img src={card2} className="card two" alt='Investify Card' />
                         </div>
                     </div>   
                 </div>
             </header>
             <section className='second-pane'>
                 <div className="shield-area">
-                    <img src={shield}  className="shield-icon" placeholder='A blue shield'/>
+                    <img src={shield}  className="shield-icon" alt='A blue shield'/>
                 </div>
                 <div className='security-text'>
                     <h2 className='security-header'>Your security is our priority</h2>
-                    <p>PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL 
+                    <p className='security-paragraph'>PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL 
                         security encryption to ensure that your information is comepletely protected from fraud.</p>
-                    <a>Learn more  </a>
+                    <a href='#'>{`Learn more >`}  </a>
                 </div>
             </section>
             <section>
                 <div className='first-row-options'>
                     <div className='saving-options'>
-                        <img className='saving-option-icon' src={piggy} placeholder='a saving option logo'/>
+                        <img className='saving-option-icon' src={piggy} alt='a saving option logo'/>
                         <h4>Automated Savings</h4>
                         <p>Build a dedicated savings faster on your terms automatically or manually.</p>
                         <div>
-                            <img className='' placeholder='' src=''></img>
+                            <img className='' alt='' src=''></img>
                             <p>Piggybank</p>     
                         </div>
 
                     </div>
 
                     <div className='saving-options'>
-                        <a>
-                            <img className='saving-option-icon' src={safelock} placeholder='a saving option logo'/>
+                        <a href='https://www.piggyvest.com/piggybank'>
+                            <img className='saving-option-icon' src={safelock} alt='a saving option logo'/>
                             <h4>Fixed Savings</h4>
                             <p>Lock money away for a fixed duration with no access to it until maturity. It’s like having a custom fixed deposit.</p>
                             <div className='saving-option-links'>
-                                <img className='' placeholder='' src=''></img>
+                                <img className='' alt='' src=''></img>
                                 <p>Safelock</p>   
                             </div>
                         </a>
@@ -71,24 +71,24 @@ export const HeroPage = () =>{
 
                 <div className='first-row-options'>
                     <div className='saving-options'>
-                        <a>
-                            <img className='saving-option-icon' src={target} placeholder='a saving option logo'/>
+                        <a href='#'>
+                            <img className='saving-option-icon' src={target} alt='a saving option logo'/>
                             <h4>Goal-oriented Savings</h4>
                             <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
                             <div>
-                                <img className='' placeholder='' src=''></img>
+                                <img className='' alt='' src=''></img>
                                 <p>Target Savings</p>
                             </div>
                         </a>
                     </div>
 
                     <div className='saving-options'>
-                        <a>
-                            <img className='saving-option-icon' src={flex} placeholder='a saving option logo'/>
+                        <a href=''>
+                            <img className='saving-option-icon' src={flex} alt='a saving option logo'/>
                             <h4>Flexible Savings</h4>
                             <p>Save, transfer, withdraw, manage and organise your money for free at any time.</p>
                             <div>  
-                                <img className='' placeholder='' src=''></img>
+                                <img className='' alt='' src=''></img>
                                 <p>Flex Naira</p>
                             </div>
                         </a>
