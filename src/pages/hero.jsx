@@ -28,19 +28,19 @@ export const HeroPage = () =>{
             <header className="first-pane">
                 <div className="first-pane-text">
                     <h1>The Better Way to Save & Invest.</h1>
-                    <p className='first-pane-text-subtext'>PiggyVest helps over 4 million customers achieve
+                    <p className='dm-sans first-pane-text-subtext'>PiggyVest helps over 4 million customers achieve
                          their financial goals by helping them save and invest with ease.</p>
                     
                     <div>
-                        <a href='#' className='black-btn'>Create free account</a>
+                        <a href='https://dashboard.piggyvest.com/register' className='black-btn'>Create free account</a>
                         <div className='download-btns'>
                         
-                            <a href='#' className='download btn'>
+                            <a href='https://apps.apple.com/ng/app/piggyvest/id1263117994' className='download btn'>
                                 <img className='app-store-image' src={appleLogo} alt=''/>
                                 Get on iPhone
                             </a>
 
-                            <a href='#'  className='download btn playstore'>
+                            <a href='https://play.google.com/store/apps/details?id=com.piggybankng.piggy' className='download btn playstore'>
                                 <img className='app-store-image' src={playStoreLogo} alt=''/>   
                                 Get on Android
                             </a>
@@ -75,7 +75,7 @@ export const HeroPage = () =>{
                     <h3 className='security-header'>Your security is our priority</h3>
                     <p className='security-paragraph'>PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL 
                         security encryption to ensure that your information is comepletely protected from fraud.</p>
-                    <a href='#' target='_blank' rel='noreferrer'>{`Learn more >`}  </a>
+                    <a href='https://www.piggyvest.com/security' target='_blank' rel='noreferrer'>{`Learn more >`}  </a>
                 </div>
             </section>
 
@@ -83,7 +83,7 @@ export const HeroPage = () =>{
                 <div className='third-pane-intro'>
                     <h2>4 ways to build your savings</h2>
                     <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
-                    <a href='#' className='btn'>Start Saving</a>
+                    <a href='https://dashboard.piggyvest.com/register' className='btn'>Start Saving</a>
                 </div>
 
                 <div className='all-options'>
@@ -114,7 +114,7 @@ export const HeroPage = () =>{
 
                     <div className='row-options'>
                         <div className='saving-options left-saving-options'>
-                            <a href='#' target='_blank' rel='noreferrer'>
+                            <a href='https://www.piggyvest.com/targets' target='_blank' rel='noreferrer'>
                                 <img className='saving-option-icon' src={target} alt='a saving option logo'/>
                                 <h4>Goal-oriented Savings</h4>
                                 <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
@@ -126,7 +126,7 @@ export const HeroPage = () =>{
                         </div>
 
                         <div className='saving-options'>
-                            <a href='' target='_blank' rel='noreferrer'>
+                            <a href='https://www.piggyvest.com/flex-naira' target='_blank' rel='noreferrer'>
                                 <img className='saving-option-icon' src={flex} alt='a saving option logo'/>
                                 <h4>Flexible Savings</h4>
                                 <p>Save, transfer, withdraw, manage and organise your money for free at any time.</p>
@@ -154,7 +154,7 @@ export const HeroPage = () =>{
                 </div>
 
                 <div className='investify-text'>
-                    <p>Up To 25% Returns</p>
+                    <p className='investify-returns'>Up To 25% Returns</p>
                     <h2>Access investment opportunities</h2>
                     <p className='investify-subtext'>Invest securely and confidently on the go. 
                             Grow your money confidently by investing in pre-vetted investment opportunities.</p>
@@ -173,7 +173,7 @@ export const HeroPage = () =>{
                     </p>
                     
                     <div >
-                        <a id='saver-month-link' href='#' target='_blank' rel='noreferrer'>
+                        <a id='saver-month-link' href='https://www.youtube.com/watch?v=-jnxad4JXCw' target='_blank' rel='noreferrer'>
 
                             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="16.2173" cy="16.1587" r="16.0254" fill="white"></circle>
@@ -326,15 +326,15 @@ export const HeroPage = () =>{
                             to manage their money better, avoid over-spending 
                             and be more accountable.</p>
                             <div>
-                                <a href='#' className='black-btn' id='black-btn-border'>Create free account</a>
+                                <a href='https://dashboard.piggyvest.com/register' className='black-btn' id='black-btn-border'>Create free account</a>
 
                                 <div className='two-buttons'>
-                                    <a href='#' className='download btn'>
+                                    <a href='https://apps.apple.com/ng/app/piggyvest/id1263117994' className='download btn'>
                                         <img className='app-store-image' src={appleLogo} alt=''/>
                                         Get on iPhone
                                     </a>
 
-                                    <a href='#'  className='download btn playstore'>
+                                    <a href='https://play.google.com/store/apps/details?id=com.piggybankng.piggy'  className='download btn playstore'>
                                         <img className='app-store-image' src={playStoreLogo} alt=''/>   
                                         Get on Android
                                     </a>
@@ -357,7 +357,7 @@ export const HeroPage = () =>{
 
             <section className='footer-1'>
                 <div className='footer-block block-1'>
-                    <a href='#' target='_blank' rel='noreferrer'>
+                    <a href='https://www.piggyvest.com/' target='_blank' rel='noreferrer'>
                         <img src={piggylogo} alt='piggyvest logo'/>
                     </a>
                     <img className='audit-logo' src={audit} alt='audit certification'/>
@@ -409,7 +409,7 @@ export const HeroPage = () =>{
                     savings & investing platform in Nigeria. 
                     For over 6 years, our customers have saved and invested billions of Naira 
                     that they would normally be tempted to spend.</p>
-                <p>2016 - 2022 PiggyTech Global Limited - RC 1405222</p>
+                <p className='copyright'>2016 - 2022 PiggyTech Global Limited - RC 1405222</p>
 
             </footer>
             
