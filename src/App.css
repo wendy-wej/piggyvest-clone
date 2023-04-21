@@ -1,6 +1,21 @@
 /* @import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8); */
 
-@import url('https://db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8');
+/* @import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8); */
+/* @font-face {font-family: "U8"; 
+  src: url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot"); 
+  src: url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.svg#U8") format("svg"); } */
+@font-face {font-family: "U8";
+  src: url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff2") format("woff2"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff") format("woff"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.svg#U8") format("svg"); /* iOS 4.1- */
+}
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 :root {

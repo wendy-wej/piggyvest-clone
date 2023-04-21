@@ -32,7 +32,7 @@ export const HeroPage = () =>{
 
             <header className="first-pane">
                 <div className="first-pane-text">
-                    <h1>The Bettera Way to Save & Invest.</h1>
+                    <h1>The Better Way to Save & Invest.</h1>
                     <p className='dm-sans first-pane-text-subtext'>PiggyVest helps over 4 million customers achieve
                          their financial goals by helping them save and invest with ease.</p>
                     
