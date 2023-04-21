@@ -1,20 +1,13 @@
 /* @import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8); */
 
 /* @import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8); */
-/* @font-face {font-family: "U8"; 
-  src: url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot"); 
-  src: url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot?#iefix") format("embedded-opentype"), 
-  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff2") format("woff2"), 
-  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff") format("woff"), 
-  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.ttf") format("truetype"), 
-  url("//db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.svg#U8") format("svg"); } */
 @font-face {font-family: "U8";
-  src: url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.svg#U8") format("svg"); /* iOS 4.1- */
+  src: url("https://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/7017698b5c5a2cc397cd3b0c0984d76f.svg#U8") format("svg"); /* iOS 4.1- */
 }
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
@@ -30,7 +23,7 @@
 
 *{
   /* font-family: 'Arial', 'Karla', sans-serif!important;; */
-  font-family: "U8", sans-serif;
+  font-family: "U8", 'DM Sans', sans-serif;
 }
 
 
@@ -426,7 +419,7 @@ header{
   padding: 6px 22px;
   border-radius: 40px;
 }
-
+/* -------------FIFTH PANE ------------------- */
 .fifth-pane{
   display: flex;
   /* max-height: 500px; */
@@ -475,26 +468,24 @@ header{
   margin:5px 5px 0px 0px;
   /* margin-right: 0px; */
 }
-
+/* -------------SEVENTH PANE ------------------- */
 .feature-images{
   height: 35px;
-  
-  /* width: 160px; */
 }
 
 .seventh-pane{
   margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
-  padding: 35px 70px;
+  padding: 10% 10%;
   background-color: rgb(249, 249, 249);
-  position: relative; /* make sure the parent has a position value */
-  z-index: 0; /* set a lower z-index than fifth-pane */
+  /* position: relative; 
+  z-index: 0;  */
 }
 
 .seventh-pane-text{
   display: flex;
-  min-width: 300px;
+  max-width: 300px;
   font-size: 28px;
   justify-content: center;
   flex:2
@@ -735,10 +726,21 @@ footer p{
   }
 
   .group-images{
+    max-width: 100%;
     display: flex;
-    justify-content: center;
+    object-fit: fill;
+    /* justify-content: center; */
     align-items: center;
     flex: 1;
+  }
+  .rect{
+    max-width: 90%;
+  }
+  .two{
+    right: 35px;
+  }
+  .hero-girl{
+    max-width: 90%;
   }
   .second-pane{
     display: flex;
@@ -758,7 +760,8 @@ footer p{
   }
   .saving-options{
     margin: 15px auto;
-    max-width: 350px;
+    word-break: break-word;
+    max-width: 80%;
   }
 
   .saving-option-icon{
@@ -787,12 +790,16 @@ footer p{
    
   }
   .invesify-images{
-    margin-right: 35%;
+    margin-left: 10%;
+  }
+  .invesify-phone{
+    width:90%
   }
   .investify-text{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    word-break: break-word;
   }
   .investify-subtext{
     margin-left: auto;
@@ -818,7 +825,7 @@ footer p{
   .fifth-pane-text{
     flex-grow: 1;
     text-align: left;
-    padding: 50px 25% 50px 20%;  
+    padding: 50px 20% 50px 20%;  
     max-width: 100vw;
   }
   .fifth-pane-image-area img{
@@ -844,8 +851,11 @@ footer p{
     min-width: 50%;
     margin-left: 0px;
     padding-bottom: 40px;
+    
   }
-
+.contact{
+  word-break: break-word;
+}
   /* .ul{
     margin-left: 0px;
   } */

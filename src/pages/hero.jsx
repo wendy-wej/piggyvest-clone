@@ -404,7 +404,7 @@ export const HeroPage = () =>{
                     </div>
                     <p>Tesmot house, Abdulrahman Okene close,
                          Victoria Island, Lagos, Nigeria.</p>
-                    <p>contact@piggyvest.com</p>
+                    <p className='contact'>contact@piggyvest.com</p>
                     <p>+234 700 933 933 933</p>
                 </div>
             </section>
