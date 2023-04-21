@@ -542,7 +542,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   flex: 1.25;
   box-sizing:border-box;
 }
