@@ -481,7 +481,7 @@ header{
   margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
-  padding: 10% 10%;
+  padding: 4% 10%;
   background-color: rgb(249, 249, 249);
   /* position: relative; 
   z-index: 0;  */
@@ -492,7 +492,8 @@ header{
   max-width: 300px;
   font-size: 28px;
   justify-content: center;
-  flex:2
+  
+  flex:2;
 }
 
 .seventh-pane-text h3{
