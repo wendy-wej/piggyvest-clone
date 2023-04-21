@@ -729,7 +729,7 @@ footer p{
     max-width: 100%;
     display: flex;
     object-fit: fill;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex: 1;
   }
