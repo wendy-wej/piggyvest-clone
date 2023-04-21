@@ -97,6 +97,9 @@ nav{
 .btn-left{
   margin-right: 4%;
 }
+.download{
+  color: #0c1825;
+}
 @media only screen and (max-width: 988px){
   .nav-div-2, .nav-div-3 {
     display: none;
