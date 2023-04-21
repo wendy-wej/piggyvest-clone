@@ -21,10 +21,15 @@ import pinkCircle from '../images/pink-circle.svg'
 import purpleDot from '../images/purple-dot.svg'
 import appleLogo from '../images/apple-icon.svg'
 import playStoreLogo from '../images/google-play-store-icon.svg'
+import { NavBar } from '../components/Navbar';
 
 export const HeroPage = () =>{
     return (
         <div>
+            <section className='navi'>
+                <NavBar/>
+            </section>
+
             <header className="first-pane">
                 <div className="first-pane-text">
                     <h1>The Better Way to Save & Invest.</h1>
